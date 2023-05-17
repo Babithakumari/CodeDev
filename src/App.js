@@ -7,10 +7,10 @@ function App() {
   return (
     <>
     <NavBar/>
-    <div class="window">
-    <Card/>
-    <Card/>
-    <Card/>
+    <div className="window">
+    <Card title="HTML" logo="html5"/>
+    <Card title="CSS" logo="css3-alt"/>
+    <Card title="JS" logo="js"/>
     </div>
     <Output/>
     </>

@@ -1,7 +1,9 @@
-const CardHeader = () =>{
+const CardHeader = ({title,logo}) =>{
     return(
-        <div class="card-header">
-        <h1>This is the cardheader</h1>
+        <div className="card-header">
+        <i className={`fa-brands fa-${logo}`}></i>
+        <h1>{title}</h1>
+        <span></span>
         </div>
     )
 

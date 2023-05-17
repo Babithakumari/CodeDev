@@ -37,7 +37,11 @@ nav{
   padding:2rem;
 }
 .card{
-  width:80%;
-  margin:1rem;
-
+  margin:1rem
+}
+textarea{
+  background-color:#1D267D;
+  color:#ffffff;
+  text-size:18px;
+  padding:0.2rem;
 }
