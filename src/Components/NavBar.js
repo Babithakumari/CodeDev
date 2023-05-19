@@ -1,8 +1,9 @@
 
 const NavBar = () => {
+    const title="</> CodeDev"
     return(
         <nav>
-            <h1>CodeDev</h1>
+            <h1>{title}</h1>
         </nav>
     )
 }
