@@ -1,4 +1,4 @@
-#CodeDev
+# CodeDev
 - An online code-editor for frontend technologies.
 - This application is developed using ReactJS.
 - Allows users can write and edit HTML, CSS, and JavaScript code in a dedicated
