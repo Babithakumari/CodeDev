@@ -1,3 +1,12 @@
+#CodeDev
+- An online code-editor for frontend technologies.
+- This application is developed using ReactJS.
+- Allows users can write and edit HTML, CSS, and JavaScript code in a dedicated
+code editor interface.
+- Provides a real-time preview window that displays the output of the code
+snippet being edited
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
