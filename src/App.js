@@ -4,11 +4,14 @@ import Editor from "./Components/Editor";
 import Output from "./Components/Output";
 import {useState,useEffect} from "react"
 
+// import storage hook
+import useLocalStorage from "./hooks/useLocalStorage"
+
 function App() {
 
-  const [HTML,setHTML] = useState("")
-  const [CSS,setCSS] = useState("")
-  const [JS,setJS] = useState("")
+  const [HTML,setHTML] = useLocalStorage("html","")
+  const [CSS,setCSS] = useLocalStorage("css","")
+  const [JS,setJS] = useLocalStorage("js","")
   const [srcDoc,setSrcDoc] = useState("")
 
   // render srcDoc after some buffer-time, everytime Html,Css,Js is edited
@@ -33,7 +36,7 @@ function App() {
     <>
     <NavBar/>
     <hr></hr>
-    <div className="pane editor-container">
+    <div className="pane top-pane">
     <Editor title="HTML" language="xml" value={HTML} onChange={setHTML} />
     <Editor title="CSS" language="css" value={CSS} onChange={setCSS}/>
     <Editor title="JS" language="javascript" value={JS} onChange={setJS}/>
