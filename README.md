@@ -6,6 +6,8 @@ code editor interface.
 - Provides a real-time preview window that displays the output of the code
 snippet being edited
 
+# Preview
+You can view the deployed application [here](https://babithakumari.github.io/CodeDev/)
 
 # Getting Started with Create React App
 
